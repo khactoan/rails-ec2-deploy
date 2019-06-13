@@ -17,3 +17,5 @@ COPY ./Gemfile.lock Gemfile.lock
 RUN bundle install
 
 COPY . $APP_ROOT
+
+EXPOSE 3000
